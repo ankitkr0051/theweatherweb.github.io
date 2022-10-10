@@ -323,7 +323,7 @@ function setdatetime(data) {
   });
 
   ht.forEach((current, i) => {
-    ht[i].innerHTML = `${hrs + i + 1}:00 ${ampm}`;
+    ht[i].innerHTML = `${hrs + i + 1}:00`;
   });
 
   //sunrise
